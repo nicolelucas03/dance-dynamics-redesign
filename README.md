@@ -1,7 +1,7 @@
 ## Dance Dynamics Website Redesign 
 **Author**: Nicole Lucas 
 
-**Email**: nicolecindylucas@gmail.com
+**Email**: nicoleclucas003@gmail.com
 
 ### Project Overview :dart:
 This project is a brand and website redesign for Dance Dynamics, a local ballet school based in Jackson Heights, Queens, NYC. The original website provides useful information but lacks modern design principles and accessibility standards. This redesign aims to modernize the user experience, improve site structure, and provide a more visually compelling platform that reflects the school’s vibrant community and mission.
