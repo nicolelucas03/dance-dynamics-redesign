@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  color: #333;
+  background-color: #fffaf4;
+  line-height: 1.6;
+}
+
+p{ 
+  margin: 50px;
+}
+
+.header {
+  background: linear-gradient(135deg, #f9e4e9, #f4d3e2);
+  color: #4b124a;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 1.3rem;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #6d1f5b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+#navbar a:hover {
+  background-color: #f9e4e9;
+  color: #6d1f5b;
+}
+
+#navbar a.active {
+  background-color: #d45d79;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #4b124a;
+  line-height: 1.6;
+}
+
+.intro {
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #fef5f7, #f9e4e9);
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #6d1f5b;
+  margin-bottom: 20px;
+}
+
+.intro-content p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 20px;
+}
+
+
+.more-content-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  max-width: 1000px;
+  margin: 30px auto;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.image-container {
+  flex: 1;
+  max-width: 45%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.text-content {
+  flex: 1;
+  max-width: 55%;
+  padding: 30px;
+  text-align: left;
+  position: relative; 
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #6d1f5b;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.cta-btn:hover {
+  background-color: #501342;
+  transform: scale(1.05);
+}
+
+.text-content h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: #6d1f5b;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-container,
+  .text-content {
+    max-width: 100%;
+  }
+
+  .text-content {
+    padding: 0;
+  }
+}
+
+.programs {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f9e4e9, #f4d3e2);
+  color: #4b124a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.programs h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.programs p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.6;
+}
+
+.program-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  color: #4b124a;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 60px;
+}
+
+
+.footer {
+  background-color: #6d1f5b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.enroll{ 
+  text-align: right;
+}
