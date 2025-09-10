@@ -1,5 +1,6 @@
 ## Dance Dynamics Website Redesign 
 **Author**: Nicole Lucas 
+
 **Email**: nicolecindylucas@gmail.com
 
 ### Project Overview :dart:
@@ -17,6 +18,7 @@ This project is a brand and website redesign for Dance Dynamics, a local ballet 
 
 ### Original Website :round_pushpin:
 You can view the current site for Dance Dynamics here: 
+
 [Dance Dynamics Jackson Heights](https://www.dancedynamicsjacksonheights.com/)
 
 
