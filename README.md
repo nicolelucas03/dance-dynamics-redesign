@@ -16,6 +16,9 @@ This project is a brand and website redesign for Dance Dynamics, a local ballet 
 - Reorganize content for better user navigation and access to key information
 - Ensure the redesign follows basic accessibility standards
 
+### Live Demo :rocket:
+You can check out the site deployed using GitHub Pages [here](https://nicolelucas03.github.io/dance-dynamics-redesign/)
+
 ### Original Website :round_pushpin:
 You can view the current site for Dance Dynamics here: 
 
